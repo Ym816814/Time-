@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/push/push",
+    "pages/profile/profile"
+  ],
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/home/home",
+        "text":"首页",
+        "iconPath":"/assets/首页7.png",
+        "selectedIconPath":"/assets/首页7.png"
+      },
+      {
+        "pagePath": "pages/push/push",
+        "text": "发布",
+        "iconPath": "/assets/社区7.png",
+        "selectedIconPath": "/assets/社区7.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "/assets/我的.png",
+        "selectedIconPath":"/assets/我的.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

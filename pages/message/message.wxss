@@ -1,0 +1,72 @@
+/* pages/message/message.wxss */
+.user_msg{
+margin-bottom: 40rpx;
+margin-top: 10rpx;
+}
+.up{
+  display: flex;
+}
+.name{
+  font-size: 60rpx;
+  height: 60rpx;
+  margin-right: 300rpx;
+  padding-left: 20rpx;
+  width: 500rpx;
+  display: flex;
+}
+.userAvatarUrl{
+  width: 60rpx;
+  height: 60rpx;
+}
+.userNickName{
+  width: 200rpx;
+  height: 60rpx;
+  font-size: 40rpx;
+  line-height: 60rpx;
+  padding-left: 20rpx;
+  color: rgb(99, 174, 199);
+  font-weight: bold;
+}
+.time{
+  margin-left: 10rpx;
+  font-size: 30rpx;
+  height: 40rpx;
+  width: 400rpx;
+  color: grey;
+}
+.cate{
+  margin-right: 60rpx;
+  width: 200rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background-color: lightblue;
+  text-align: center;
+  border-radius: 55rpx;
+}
+.text{
+  font-size: 40rpx;
+  height: 300rpx;
+  width: 700rpx;
+  display: flex;
+  justify-content: center;
+  margin: 10rpx auto;
+  border-bottom: 3rpx solid grey;
+}
+.round-click{
+  height: 150rpx;
+  width: 150rpx;
+  background-color: lightblue;
+  border-radius: 100%;
+  position: fixed;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  bottom: 10rpx;
+  right: 40%;
+  z-index: 9;
+}
+.round-click navigator{
+  font-size: 30rpx;
+  color: white;
+  text-align: center;
+}

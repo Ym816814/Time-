@@ -1,6 +1,12 @@
 //app.js
 App({
   onLaunch: function () {
+
+    //云开发环境初始化
+    wx.cloud.init({
+      env:"time-p25fs"
+    })
+
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())

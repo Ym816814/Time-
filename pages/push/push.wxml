@@ -1,1 +1,38 @@
 <!--pages/push/push.wxml-->
+
+<view class="input">
+  <input placeholder="请输入发布内容..."  bindinput="input"></input>
+</view>
+
+<view class="choose">
+  <!-- 开始时间组件 -->
+<view class="begin_time">
+    <picker mode="time" value="{{time}}" start="06:00" end="20:00" bindchange="bind_b_TimeChange">  
+    <view class="time"> 
+     开始时间： {{b_times}}
+    </view>  
+  </picker>  
+</view>
+
+<!-- 结束时间组件 -->
+<view class="stop_time">
+    <picker mode="time" value="{{time}}" start="08:00" end="22:00" bindchange="bind_s_TimeChange">  
+    <view class="time">  
+     结束时间： {{s_times}}
+    </view>  
+  </picker>  
+</view>
+</view>
+
+<!-- 选择分类组件 -->
+<view class="cate">
+  <label class="label">请选择分类..</label>
+  <radio-group class='radio-group'  bindchange="radiochange">
+    <radio class='radio' wx:for-items="{{cate}}" wx:key="num" value="{{item.value}}" checked="{{item.checked}}">
+    <text class="label">{{item.value}}</text>
+    </radio>
+  </radio-group>
+</view>
+
+<!-- 发布按钮 -->
+<button type='primary' bindtap="addpush">发布</button>

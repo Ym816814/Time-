@@ -1,1 +1,25 @@
 /* pages/push/push.wxss */
+.input{
+  height:400rpx;
+  border-bottom: 3rpx solid grey;
+}
+.begin_time,.stop_time{
+  height:100rpx;
+  width: 300rpx;
+  font-size: 30rpx;
+  background-color: rgb(113, 189, 214);
+  line-height: 100rpx;
+  margin: 30rpx 35rpx;
+  text-align: center;
+  border-radius: 100rpx;
+}
+.choose{
+  height: 150rpx;
+  display: flex;
+  border-bottom: 3rpx solid grey;
+}
+
+.radio{
+  display: block;
+  margin: 30rpx 40rpx;
+}
